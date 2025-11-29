@@ -20,7 +20,7 @@
 // SPDX-License-Identifier: GPL-30
 pragma solidity >= 0.7.0 < 0.9.0;
 
-contract lec30 {
+contract lec32 {
 
     event howMuch(uint256 _value);
 
@@ -49,6 +49,6 @@ contract lec30 {
 }
 ```
 
-- `sendNow`, `transferNow`,  실행(각각 첫번째 계정 -> 두번째 계정으로 10 ether씩 보냄) 결과
+- `sendNow`, `transferNow`, `callNow` 실행(각각 첫번째 계정 -> 두번째 계정으로 10 ether씩 보냄) 결과
 <img width="1844" height="612" alt="image" src="https://github.com/user-attachments/assets/6e24ab56-9570-44a8-9a5a-5ce835708257" />
 <img width="442" height="223" alt="image" src="https://github.com/user-attachments/assets/ba40d336-877e-4aa6-afd4-9c89be0f8243" />
